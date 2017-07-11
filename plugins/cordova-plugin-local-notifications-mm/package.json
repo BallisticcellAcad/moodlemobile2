@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-local-notifications-mm",
+        "scope": null,
+        "escapedName": "cordova-plugin-local-notifications-mm",
+        "name": "cordova-plugin-local-notifications-mm",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "D:\\Projects\\Netbeans\\moodlemobile2\\node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-local-notifications-mm@latest",
+  "_id": "cordova-plugin-local-notifications-mm@1.0.6",
+  "_inCache": true,
+  "_location": "/cordova-plugin-local-notifications-mm",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-local-notifications-mm-1.0.6.tgz_1494916408720_0.7868565917015076"
+  },
+  "_npmUser": {
+    "name": "dpalou",
+    "email": "dani@moodle.com"
+  },
+  "_npmVersion": "4.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-local-notifications-mm",
+    "scope": null,
+    "escapedName": "cordova-plugin-local-notifications-mm",
+    "name": "cordova-plugin-local-notifications-mm",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-local-notifications-mm/-/cordova-plugin-local-notifications-mm-1.0.6.tgz",
+  "_shasum": "6c73d4e0cfabfada1b65831870b076e3929c23c2",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-local-notifications-mm",
+  "_where": "D:\\Projects\\Netbeans\\moodlemobile2\\node_modules",
+  "author": {
+    "name": "Sebastián Katzer"
+  },
+  "bugs": {
+    "url": "https://github.com/katzer/cordova-plugin-local-notifications/issues"
+  },
+  "cordova_name": "Cordova LocalNotification Plugin",
+  "dependencies": {
+    "cordova-plugin-app-event": ">=1.1.0",
+    "cordova-plugin-device": "*"
+  },
+  "description": "Schedules and queries for local notifications",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "6c73d4e0cfabfada1b65831870b076e3929c23c2",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-local-notifications-mm/-/cordova-plugin-local-notifications-mm-1.0.6.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.6.0"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=4.3.0"
+    },
+    {
+      "name": "cordova-windows",
+      "version": ">=4.2.0"
+    }
+  ],
+  "gitHead": "54f6be063e4d85d3274b8e42071c09970b2b0990",
+  "homepage": "https://github.com/katzer/cordova-plugin-local-notifications#readme",
+  "keywords": [
+    "appplant",
+    "notification",
+    "local notification",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "dpalou",
+      "email": "dani@moodle.com"
+    }
+  ],
+  "name": "cordova-plugin-local-notifications-mm",
+  "optionalDependencies": {},
+  "platforms": [
+    "ios",
+    "android",
+    "windows"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpalou/cordova-plugin-local-notifications.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.6"
+}

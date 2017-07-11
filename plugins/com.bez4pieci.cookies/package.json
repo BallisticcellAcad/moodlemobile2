@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+        "spec": "git+https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:bez4pieci/Phonegap-Cookies-Plugin.git",
+          "sshUrl": "git+ssh://git@github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+          "httpsUrl": "git+https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+          "gitUrl": "git://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+          "shortcut": "github:bez4pieci/Phonegap-Cookies-Plugin",
+          "directUrl": "https://raw.githubusercontent.com/bez4pieci/Phonegap-Cookies-Plugin/master/package.json"
+        }
+      },
+      "D:\\Projects\\Netbeans\\moodlemobile2\\node_modules"
+    ]
+  ],
+  "_from": "git+https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+  "_id": "cordova-remove-cookies@0.0.2",
+  "_inCache": true,
+  "_location": "/cordova-remove-cookies",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+    "spec": "git+https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:bez4pieci/Phonegap-Cookies-Plugin.git",
+      "sshUrl": "git+ssh://git@github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+      "httpsUrl": "git+https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+      "gitUrl": "git://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+      "shortcut": "github:bez4pieci/Phonegap-Cookies-Plugin",
+      "directUrl": "https://raw.githubusercontent.com/bez4pieci/Phonegap-Cookies-Plugin/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git#b175345c076989c669be3ef76316fa658872ae13",
+  "_shasum": "dc0c87b553a2bb529ce7943acef3c6c0a0edb315",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+  "_where": "D:\\Projects\\Netbeans\\moodlemobile2\\node_modules",
+  "author": {
+    "name": "Ernests Karlsons"
+  },
+  "bugs": {
+    "url": "https://github.com/bez4pieci/Phonegap-Cookies-Plugin/issues"
+  },
+  "cordova": {
+    "id": "com.bez4pieci.cookies",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "cordova_name": "Cookies",
+  "dependencies": {},
+  "description": "Cordova Cookies Plugin",
+  "devDependencies": {},
+  "engines": [],
+  "gitHead": "b175345c076989c669be3ef76316fa658872ae13",
+  "homepage": "https://github.com/bez4pieci/Phonegap-Cookies-Plugin#readme",
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "cookies"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-remove-cookies",
+  "optionalDependencies": {},
+  "readme": "Phonegap Cookies Plugin\r\n=======\r\n\r\nPhonegap/Cordova plugin that allows you to clear cookies of the webview. Use it for logging out the user, restart analytics session etc.\r\n\r\n## Why a plugin?\r\n\r\nOn Phonegap `document.cookie` is empty, since index.html and all other files are loaded with `file://` protocol.\r\nPhonegap manages cookies internally, but doesn't expose any function for clearing them.\r\n\r\n## Installation\r\n\r\nCookies is compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman) and ready for the [PhoneGap 3.0 CLI](http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface_add_features), here's how it works with the CLI:\r\n\r\n```\r\n$ phonegap local plugin add https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git\r\n```\r\n\r\n## Usage\r\n\r\n```javascript\r\nwindow.cookies.clear(function() {\r\n\tconsole.log('Cookies cleared!');\r\n});\r\n```\r\n\r\n- - -\r\n\r\n[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bez4pieci/phonegap-cookies-plugin/trend.png)](https://bitdeli.com/free \"Bitdeli Badge\")",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git"
+  },
+  "version": "0.0.2"
+}
