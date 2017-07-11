@@ -729,13 +729,13 @@ angular.module('mm.core')
             promises = [];
 
         currentSite = undefined;
-
+        
         if (siteConfig && siteConfig.tool_mobile_forcelogout == "1") {
             promises.push(self.setSiteLoggedOut(siteId, true));
         }
 
         promises.push($mmApp.getDB().remove(mmCoreCurrentSiteStore, 1));
-
+        
         return $q.all(promises).finally(function() {
             $mmEvents.trigger(mmCoreEventLogout, siteId);
         });

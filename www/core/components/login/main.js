@@ -40,23 +40,23 @@ angular.module('mm.core.login', [])
         cache: false // Disable caching to force controller reload.
     })
 
-    .state('mm_login.sites', {
-        url: '/sites',
-        templateUrl: 'core/components/login/templates/sites.html',
-        controller: 'mmLoginSitesCtrl',
-        onEnter: function($mmLoginHelper, $mmSitesManager) {
-            // Skip this page if there are no sites yet.
-            $mmSitesManager.hasNoSites().then(function() {
-                $mmLoginHelper.goToAddSite();
-            });
-        }
-    })
+//    .state('mm_login.sites', {
+//        url: '/sites',
+//        templateUrl: 'core/components/login/templates/sites.html',
+//        controller: 'mmLoginSitesCtrl',
+//        onEnter: function($mmLoginHelper, $mmSitesManager) {
+//            // Skip this page if there are no sites yet.
+//            $mmSitesManager.hasNoSites().then(function() {
+//                $mmLoginHelper.goToAddSite();
+//            });
+//        }
+//    }) //Sve: removed
 
-    .state('mm_login.site', {
-        url: '/site',
-        templateUrl: 'core/components/login/templates/site.html',
-        controller: 'mmLoginSiteCtrl'
-    })
+//    .state('mm_login.site', {
+//        url: '/site',
+//        templateUrl: 'core/components/login/templates/site.html',
+//        controller: 'mmLoginSiteCtrl'
+//    }) //Sve: removed
 
     .state('mm_login.credentials', {
         url: '/cred',
@@ -423,7 +423,7 @@ angular.module('mm.core.login', [])
                 disableAnimate: true,
                 disableBack: true
             });
-            $state.go('mm_login.sites');
+            $state.go('mm_login.credentials'); //Sve: change to .credentials from .sites
         });
     }
 });

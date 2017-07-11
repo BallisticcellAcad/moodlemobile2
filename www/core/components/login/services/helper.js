@@ -198,7 +198,7 @@ angular.module('mm.core.login')
             // Fixed URL is set, go to credentials page.
             return $state.go('mm_login.credentials', {siteurl: mmCoreConfigConstants.siteurl});
         } else {
-            return $state.go('mm_login.site');
+            return $state.go('mm_login.credentials'); //Sve: change .site with .credentials
         }
     };
 

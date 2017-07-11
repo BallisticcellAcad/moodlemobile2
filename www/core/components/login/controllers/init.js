@@ -62,7 +62,7 @@ angular.module('mm.core.login')
             }
         } else {
             $mmSitesManager.hasSites().then(function() {
-                return $state.go('mm_login.sites');
+                return $state.go('mm_login.credentials', {siteurl: 'http://moodledev.academico.bg/'}); //Sve: change to .credentials from .sites
             }, function() {
                 return $mmLoginHelper.goToAddSite();
             });

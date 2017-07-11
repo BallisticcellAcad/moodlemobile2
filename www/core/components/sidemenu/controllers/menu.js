@@ -30,9 +30,23 @@ angular.module('mm.core.sidemenu')
     loadSiteInfo();
 
     $scope.logout = function() {
+//        window.cookies.clear(function() {
+//                console.log('Cookies cleared!');
+//            });
         $mmSitesManager.logout().finally(function() {
-            $state.go('mm_login.sites');
+            $mmSitesManager.deleteSite($mmSite.getId()).finally(function() {
+                $state.go('mm_login.credentials', {siteurl: 'http://moodledev.academico.bg/'});
+            });
         });
+        
+            
+//        $mmSitesManager.logout().finally(function() {
+//            window.cookies.clear(function() {
+//                console.log('Cookies cleared!');
+//            });
+//            debugger;
+//            $state.go('mm_login.init'); //Sve: change to .credentials from .sites
+//        });
     };
 
     function loadSiteInfo() {

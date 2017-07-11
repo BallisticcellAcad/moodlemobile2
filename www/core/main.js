@@ -107,7 +107,7 @@ angular.module('mm.core', ['pascalprecht.translate'])
                         }
                     }, function() {
                         // Site doesn't exist.
-                        $state.go('mm_login.sites');
+                        $state.go('mm_login.credentials'); //Sve: change to .credentials from .sites
                     });
                 }
 
@@ -131,7 +131,7 @@ angular.module('mm.core', ['pascalprecht.translate'])
                         if ($stateParams.siteid) {
                             loadSiteAndGo();
                         } else {
-                            $state.go('mm_login.sites');
+                            $state.go('mm_login.credentials'); //Sve: change to .credentials from .sites
                         }
                     }
                 });

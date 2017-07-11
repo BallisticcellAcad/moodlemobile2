@@ -25,7 +25,7 @@ angular.module('mm.core.login')
             $q, $mmLoginHelper, $mmContentLinksDelegate, $mmContentLinksHelper, $translate, mmCoreLoginSiteCheckedEvent,
             mmCoreLoginSiteUncheckedEvent) {
 
-    $scope.siteurl = $stateParams.siteurl;
+    $scope.siteurl = 'http://moodledev.academico.bg/';
     $scope.credentials = {
         username: $stateParams.username
     };

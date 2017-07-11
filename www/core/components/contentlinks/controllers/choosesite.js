@@ -34,7 +34,7 @@ angular.module('mm.core.contentlinks')
                 disableAnimate: true,
                 disableBack: true
             });
-            $state.go('mm_login.sites');
+            $state.go('mm_login.credentials'); //Sve: change to .credentials from .sites
         });
     }
 
