@@ -1,3 +1,5 @@
+/* global MOODLE_SITE_URL */
+
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -35,7 +37,7 @@ angular.module('mm.core.sidemenu')
 //            });
         $mmSitesManager.logout().finally(function() {
             $mmSitesManager.deleteSite($mmSite.getId()).finally(function() {
-                $state.go('mm_login.credentials', {siteurl: 'http://moodledev.academico.bg/'});
+                $state.go('mm_login.credentials', {siteurl: MOODLE_SITE_URL});
             });
         });
         

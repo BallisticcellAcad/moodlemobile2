@@ -1,3 +1,5 @@
+/* global MOODLE_SITE_URL */
+
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +27,7 @@ angular.module('mm.core.login')
             $q, $mmLoginHelper, $mmContentLinksDelegate, $mmContentLinksHelper, $translate, mmCoreLoginSiteCheckedEvent,
             mmCoreLoginSiteUncheckedEvent) {
 
-    $scope.siteurl = 'http://moodledev.academico.bg/';
+    $scope.siteurl = MOODLE_SITE_URL;
     $scope.credentials = {
         username: $stateParams.username
     };

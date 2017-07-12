@@ -17,6 +17,8 @@
 angular.module('mm', ['ionic', 'ngCordova', 'angular-md5', 'pascalprecht.translate', 'ngAria', 'oc.lazyLoad', 'ckeditor',
             'ngMessages', 'ngAnimate'])
 
+
+
 .run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {
         if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
@@ -28,3 +30,6 @@ angular.module('mm', ['ionic', 'ngCordova', 'angular-md5', 'pascalprecht.transla
         }
     });
 });
+
+//Sve: global constant for defining our Moodle Master Site url
+var MOODLE_SITE_URL = 'http://startmoodleqa.academico.bg:9000/';

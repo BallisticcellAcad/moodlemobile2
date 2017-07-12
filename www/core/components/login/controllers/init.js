@@ -1,3 +1,5 @@
+/* global MOODLE_SITE_URL */
+
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -62,7 +64,7 @@ angular.module('mm.core.login')
             }
         } else {
             $mmSitesManager.hasSites().then(function() {
-                return $state.go('mm_login.credentials', {siteurl: 'http://moodledev.academico.bg/'}); //Sve: change to .credentials from .sites
+                return $state.go('mm_login.credentials', {siteurl: MOODLE_SITE_URL}); //Sve: change to .credentials from .sites
             }, function() {
                 return $mmLoginHelper.goToAddSite();
             });
