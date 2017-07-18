@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.moodle.moodlemobile" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Moodle Mobile</name>
-    <description>Ballistic Cell Moodle Mobile app</description>
+<widget id="com.ballisticcell.academico" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Academico</name>
+    <description>Academico app</description>
     <author email="borisova@ballisticcell.com" href="http://www.ballisticcell.com">Balistic Cell LTD</author>
     <content src="index.html" />
     <access origin="*" />
@@ -9,13 +9,14 @@
     <allow-navigation href="content:*" />
     <allow-navigation href="data:*" />
     <allow-navigation href="*" />
+    <allow-navigation href="file://*/*" />
     <allow-intent href="*" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="BackupWebStorage" value="none" />
     <preference name="SplashScreen" value="screen" />
-    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashScreenDelay" value="2000" />
     <preference name="KeyboardDisplayRequiresUserAction" value="false" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-targetSdkVersion" value="19" />

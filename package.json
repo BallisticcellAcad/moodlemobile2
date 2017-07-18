@@ -2,17 +2,6 @@
     "name": "mm2",
     "version": "1.0.0",
     "description": "Academico Moodle Mobile",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BallisticcellAcad/moodlemobile2"
-    },
-    "license": "Apache-2.0",
-    "licenses": [
-        {
-            "type": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0"
-        }
-    ],
     "dependencies": {
         "com.bez4pieci.cookies": "https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
         "cordova-android": "^6.2.3",
