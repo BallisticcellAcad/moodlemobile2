@@ -55,6 +55,8 @@ angular.module('mm.addons.participants')
          *                               false or promise rejected or resolved with false otherwise.
          */
         self.isEnabledForCourse = function(courseId, accessData, navOptions, admOptions) {
+            return false;//Sve: added return false;
+            
             if (accessData && accessData.type == mmCoursesAccessMethods.guest) {
                 return false; // Not enabled for guests.
             }

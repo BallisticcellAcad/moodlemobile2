@@ -7,58 +7,58 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
-        },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
-        },
-        "cordova-plugin-globalization": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
-        },
-        "cordova-plugin-file": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
+        "com.bez4pieci.cookies": {
+            "PACKAGE_NAME": "com.ballisticcell.academico"
         },
         "cordova-inappbrowser": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
+            "PACKAGE_NAME": "com.ballisticcell.academico"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ballisticcell.academico"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.ballisticcell.academico"
         },
         "cordova-plugin-file-transfer": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
+            "PACKAGE_NAME": "com.ballisticcell.academico"
         },
-        "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
-        },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
-        },
-        "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.ballisticcell.academico"
         },
         "cordova-plugin-local-notifications-mm": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
+            "PACKAGE_NAME": "com.ballisticcell.academico"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.ballisticcell.academico"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ballisticcell.academico"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ballisticcell.academico"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ballisticcell.academico"
         },
         "cordova-plugin-zip": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
+            "PACKAGE_NAME": "com.ballisticcell.academico"
         },
         "cordova-universal-clipboard": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
+            "PACKAGE_NAME": "com.ballisticcell.academico"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ballisticcell.academico"
         },
         "nl.kingsquare.cordova.background-audio": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
-        },
-        "com.bez4pieci.cookies": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
+            "PACKAGE_NAME": "com.ballisticcell.academico"
         }
     },
     "dependent_plugins": {
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
-        },
         "cordova-plugin-app-event": {
-            "PACKAGE_NAME": "com.moodle.moodlemobile"
+            "PACKAGE_NAME": "com.ballisticcell.academico"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ballisticcell.academico"
         }
     }
 }
