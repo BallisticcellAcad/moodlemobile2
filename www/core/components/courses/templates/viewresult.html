@@ -27,7 +27,7 @@
                     <p class="item-heading">{{ 'mm.core.teachers' | translate }}</p>
                     <p ng-repeat="contact in course.contacts">{{contact.fullname}}</p>
                 </div>
-                <mm-file ng-repeat="file in course.overviewfiles" file="file" component="{{component}}" component-id="{{course.id}}"></mm-file>
+<!--                <mm-file ng-repeat="file in course.overviewfiles" file="file" component="{{component}}" component-id="{{course.id}}"></mm-file>-->
                 <div class="item" ng-if="!isEnrolled" ng-repeat="instance in selfEnrolInstances track by instance.id">
                     <p class="item-heading">{{ instance.name }}</p>
                     <button class="button button-block" ng-click="enrol(instance.id, enroldata.password)">{{ 'mm.courses.enrolme' | translate }}</button>

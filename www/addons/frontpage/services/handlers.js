@@ -46,11 +46,11 @@ angular.module('mm.addons.frontpage')
          *                           rejected promise or false.
          */
         self.isEnabled = function() {
-            if ($mmaFrontpage.isPluginEnabled()) {
-                return $mmaFrontpage.isFrontpageAvailable().then(function() {
-                    return true;
-                });
-            }
+//            if ($mmaFrontpage.isPluginEnabled()) {
+//                return $mmaFrontpage.isFrontpageAvailable().then(function() {
+//                    return true;
+//                });
+//            }
             return false;
         };
 
